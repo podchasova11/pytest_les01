@@ -1,4 +1,4 @@
-import requests
+requests
 
 
 class TestInsultPage:
