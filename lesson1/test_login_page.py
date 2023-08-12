@@ -4,7 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class TestLoginPage: # Название тестового класса
 
-    def test_open_login_page(self): # Название нашего теста
+    def test_open_login_page(self): # Название теста
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service)
         driver.get("https://www.freeconferencecall.com/login")
