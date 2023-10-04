@@ -10,7 +10,7 @@ class TestLoginPage: # Название тестового класса
         driver.get("https://www.freeconferencecall.com/login")
         assert driver.title == "Страница входа | FreeConferenceCall.com", "Страница логина не была открыта"
 
-    def test_open_login_page(self):  # Название нашего теста
+    def test_open_login_page(self):
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service)
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
