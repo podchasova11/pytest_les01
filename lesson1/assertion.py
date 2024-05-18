@@ -1,6 +1,5 @@
 import requests
 
-
 # assert <условие>, <кастомное сообщение об ошибке>
 
 response = requests.get("https://evilinsult.com/generate_insult.php")
