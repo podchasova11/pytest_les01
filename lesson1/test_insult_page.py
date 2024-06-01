@@ -1,5 +1,6 @@
 import requests
 
+
 class TestInsultPage:
 
     def test_generate_insult(self):
