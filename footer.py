@@ -1,4 +1,5 @@
 import pytest
+
 from selenium.webdriver.common.by import By
 from pages.gear_page.category_page import BasePage
 
