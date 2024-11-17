@@ -3,6 +3,7 @@ import pytest
 from selenium.webdriver.common.by import By
 from pages.gear_page.category_page import BasePage
 
+
 url_list = [
     'https://magento.softwaretestingboard.com/',
     'https://magento.softwaretestingboard.com/what-is-new.html',
